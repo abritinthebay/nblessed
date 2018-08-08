@@ -1,9 +1,7 @@
 #!/usr/bin/env node
 
-/**
+/*
  * A clock using blessed
- * Copyright (c) 2013, Christopher Jeffrey (MIT License).
- * https://github.com/chjj/blessed
  */
 
 process.title = 'time.js';
@@ -85,7 +83,7 @@ var inverse = true;
 for (var i = 0; i < 10; i++) {
   var symbols = positions[i] = {};
 
-  /**
+  /*
    * Zero
    */
 
@@ -151,7 +149,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols[0].hide();
 
-  /**
+  /*
    * One
    */
 
@@ -176,7 +174,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols[1].hide();
 
-  /**
+  /*
    * Two
    */
 
@@ -255,7 +253,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols[2].hide();
 
-  /**
+  /*
    * Three
    */
 
@@ -322,7 +320,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols[3].hide();
 
-  /**
+  /*
    * Four
    */
 
@@ -376,7 +374,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols[4].hide();
 
-  /**
+  /*
    * Five
    */
 
@@ -455,7 +453,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols[5].hide();
 
-  /**
+  /*
    * Six
    */
 
@@ -534,7 +532,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols[6].hide();
 
-  /**
+  /*
    * Seven
    */
 
@@ -575,7 +573,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols[7].hide();
 
-  /**
+  /*
    * Eight
    */
 
@@ -654,7 +652,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols[8].hide();
 
-  /**
+  /*
    * Nine
    */
 
@@ -733,7 +731,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols[9].hide();
 
-  /**
+  /*
    * Colon
    */
 
@@ -773,7 +771,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols[':'].hide();
 
-  /**
+  /*
    * A
    */
 
@@ -839,7 +837,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols['a'].hide();
 
-  /**
+  /*
    * P
    */
 
@@ -905,7 +903,7 @@ for (var i = 0; i < 10; i++) {
 
   symbols['p'].hide();
 
-  /**
+  /*
    * M
    */
 

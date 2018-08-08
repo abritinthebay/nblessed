@@ -1,9 +1,7 @@
 #!/usr/bin/env node
 
-/**
+/*
  * ping
- * https://github.com/chjj/blessed
- * Copyright (c) 2013, Christopher Jeffrey (MIT License)
  * Online (ping)pong in your terminal.
  */
 
@@ -35,7 +33,7 @@ try {
 var server
   , socket;
 
-/**
+/*
  * Screen Layout
  */
 
@@ -139,7 +137,7 @@ screen.on('resize', function() {
   sync();
 });
 
-/**
+/*
  * Options
  */
 
@@ -148,7 +146,7 @@ ball.unpredictable = true;
 lpaddle.speed = 2;
 rpaddle.speed = 2;
 
-/**
+/*
  * Game
  */
 
@@ -418,7 +416,7 @@ function startClient() {
   reset();
 }
 
-/**
+/*
  * Main
  */
 
@@ -441,7 +439,7 @@ function main() {
   if (process.argv[2] && process.argv[3]) return startClient();
 }
 
-/**
+/*
  * Execute
  */
 

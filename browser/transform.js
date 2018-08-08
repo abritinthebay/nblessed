@@ -1,14 +1,12 @@
-/**
+/*
  * transform.js - browserify workaround for blessed
- * Copyright (c) 2013-2015, Christopher Jeffrey and contributors (MIT License).
- * https://github.com/chjj/blessed
  */
 
 var Transform = require('stream').Transform
   , path = require('path')
   , fs = require('fs');
 
-/**
+/*
  * Transformer
  */
 
@@ -26,7 +24,7 @@ function transformer(code) {
   return stream;
 }
 
-/**
+/*
  * Explicitly require all widgets in widget.js
  */
 
@@ -38,7 +36,7 @@ var requireWidgets = widgets.reduce(function(out, name) {
   return out;
 }, '');
 
-/**
+/*
  * Do not make filesystem calls in tput.js for
  * terminfo or termcap, just use xterm terminfo/cap.
  */
@@ -82,7 +80,7 @@ readMethods = readMethods.toString().slice(24, -2)
   .replace('TERMCAP', JSON.stringify(fs.readFileSync(capPath, 'utf8')))
   .replace('TERMCAP_NAME', JSON.stringify(path.basename(capPath, '.termcap')));
 
-/**
+/*
  * Helpers
  */
 
@@ -90,7 +88,7 @@ function end(file, offset) {
   return file.split(path.sep).slice(-offset).join('/');
 }
 
-/**
+/*
  * Expose
  */
 

@@ -1,9 +1,7 @@
 #!/usr/bin/env node
 
-/**
+/*
  * multiplex.js
- * https://github.com/chjj/blessed
- * Copyright (c) 2013-2015, Christopher Jeffrey (MIT License)
  * A terminal multiplexer created by blessed.
  */
 

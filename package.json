@@ -1,19 +1,19 @@
 {
-  "name": "blessed",
+  "name": "nblessed",
   "description": "A high-level terminal interface library for node.js.",
-  "author": "Christopher Jeffrey",
+  "author": "Gregory Wild-Smith",
   "version": "0.1.81",
   "license": "MIT",
   "main": "./lib/blessed.js",
   "bin": "./bin/tput.js",
   "preferGlobal": false,
-  "repository": "git://github.com/chjj/blessed.git",
-  "homepage": "https://github.com/chjj/blessed",
-  "bugs": { "url": "http://github.com/chjj/blessed/issues" },
-  "keywords": ["curses", "tui", "tput", "terminfo", "termcap"],
-  "tags": ["curses", "tui", "tput", "terminfo", "termcap"],
+  "repository": "git://github.com/abritinthebay/nblessed.git",
+  "homepage": "https://github.com/abritinthebay/nblessed",
+  "bugs": { "url": "http://github.com/abritinthebay/nblessed/issues" },
+  "keywords": ["ncurses", "curses", "gui", "tui", "tput", "terminfo", "termcap"],
+  "tags": ["ncurses", "curses", "gui", "tui", "tput", "terminfo", "termcap"],
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 8.0.0"
   },
   "browserify": {
     "transform": ["./browser/transform.js"]

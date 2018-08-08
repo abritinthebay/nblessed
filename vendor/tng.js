@@ -1,4 +1,4 @@
-/**
+/*
  * tng.js - png reader
  * Copyright (c) 2015, Christopher Jeffrey (MIT License).
  * https://github.com/chjj/tng
@@ -12,7 +12,7 @@ var fs = require('fs')
   , cp = require('child_process')
   , exec = cp.execFileSync;
 
-/**
+/*
  * PNG
  */
 
@@ -435,7 +435,7 @@ PNG.prototype.filters = {
   }
 };
 
-/**
+/*
  * Adam7 deinterlacing ported to javascript from PyPNG:
  * pypng - Pure Python library for PNG image encoding/decoding
  * Copyright (c) 2009-2015, David Jones (MIT License).
@@ -1214,7 +1214,7 @@ PNG.prototype.decompress = function(buffers) {
   }, [])));
 };
 
-/**
+/*
  * node-crc
  * https://github.com/alexgorbatchev/node-crc
  * https://github.com/alexgorbatchev/node-crc/blob/master/LICENSE
@@ -1305,7 +1305,7 @@ PNG.prototype._debug = function() {
   return this.options.log.apply(null, arguments);
 };
 
-/**
+/*
  * GIF
  */
 
@@ -1744,7 +1744,7 @@ GIF.prototype.decompress = function(input, codeSize) {
   return buf;
 };
 
-/**
+/*
  * Expose
  */
 

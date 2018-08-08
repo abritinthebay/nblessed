@@ -1,7 +1,5 @@
-/**
+/*
  * Example Program for Blessed
- * Copyright (c) 2013, Christopher Jeffrey (MIT License).
- * https://github.com/chjj/blessed
  */
 
 var blessed = require('../')

@@ -1,7 +1,7 @@
-/**
+/*
  * Tput for node.js
  * Copyright (c) 2013, Christopher Jeffrey (MIT License)
- * https://github.com/chjj/blessed
+
  */
 
 // Compile xterm terminfo/termcap:

@@ -11,7 +11,7 @@ var screen = blessed.screen({
   warnings: true
 });
 
-/**
+/*
  * Unicode Characters
  */
 
@@ -48,7 +48,7 @@ var COMBINE_NONSURROGATE = unicode.fromCodePoint(0x0300);
 // var COMBINE = String.fromCharCode(0xD802, 0xDE01);
 var COMBINE = unicode.fromCodePoint(0x10A01);
 
-/**
+/*
  * Content
  */
 
@@ -76,7 +76,7 @@ for (var point = 0x1f600; point <= 0x1f64f; point++) {
   lorem += emoticon + ' ';
 }
 
-/**
+/*
  * UI
  */
 

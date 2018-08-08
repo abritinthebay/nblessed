@@ -1,8 +1,8 @@
-/**
+/*
  * ansi-viewer
  * ANSI art viewer for node.
  * Copyright (c) 2015, Christopher Jeffrey and contributors (MIT License).
- * https://github.com/chjj/blessed
+
  */
 
 var blessed = require('blessed')
@@ -226,7 +226,7 @@ screen.key('q', function() {
 
 screen.render();
 
-/**
+/*
  * Helpers
  */
 

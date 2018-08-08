@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
-/**
+/*
  * blessed-telnet.js
- * https://github.com/chjj/blessed
  * Copyright (c) 2013-2015, Christopher Jeffrey (MIT License)
  * A blessed telnet server.
  * See: https://github.com/TooTallNate/node-telnet
