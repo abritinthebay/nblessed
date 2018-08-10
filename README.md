@@ -1391,7 +1391,7 @@ manager. Requires term.js and pty.js to be installed. See
 
 - Inherits all from Box.
 - __term__ - Reference to the headless term.js terminal.
-- __pty__ - Reference to the pty.js pseudo terminal.
+- __pty__ - Reference to the `node-pty` pseudo terminal.
 
 ##### Events:
 
