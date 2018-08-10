@@ -9,13 +9,37 @@
   "preferGlobal": false,
   "repository": "git://github.com/abritinthebay/nblessed.git",
   "homepage": "https://github.com/abritinthebay/nblessed",
-  "bugs": { "url": "http://github.com/abritinthebay/nblessed/issues" },
-  "keywords": ["ncurses", "curses", "gui", "tui", "tput", "terminfo", "termcap"],
-  "tags": ["ncurses", "curses", "gui", "tui", "tput", "terminfo", "termcap"],
+  "bugs": {
+    "url": "http://github.com/abritinthebay/nblessed/issues"
+  },
+  "keywords": [
+    "ncurses",
+    "curses",
+    "gui",
+    "tui",
+    "tput",
+    "terminfo",
+    "termcap"
+  ],
+  "tags": [
+    "ncurses",
+    "curses",
+    "gui",
+    "tui",
+    "tput",
+    "terminfo",
+    "termcap"
+  ],
   "engines": {
     "node": ">= 8.0.0"
   },
   "browserify": {
-    "transform": ["./browser/transform.js"]
+    "transform": [
+      "./browser/transform.js"
+    ]
+  },
+  "dependencies": {
+    "node-pty": "^0.7.6",
+    "term.js": "0.0.7"
   }
 }
