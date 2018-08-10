@@ -876,6 +876,7 @@ A very simple file manager for selecting files.
 
 - Inherits all from List.
 - __cwd__ - Current working directory.
+- __dotfiles__ - Show dotfiles - like `.DS_Store` or `.bashrc` - in listing (default: `true`).
 
 ##### Properties:
 
