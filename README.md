@@ -135,4 +135,3 @@ Licenced under the MIT License. See the LICENSE file for more info.
 [urwid]: http://urwid.org/reference/index.html
 [curses-ui]: http://search.cpan.org/~mdxi/Curses-UI-0.9609/lib/Curses/UI.pm
 [termbox]: https://github.com/nsf/termbox-go
-[ttystudio]: https://github.com/chjj/ttystudio#choosing-a-new-font-for-your-terminal-recording

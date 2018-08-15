@@ -393,7 +393,7 @@ The base element.
 - __border__ - Border object.
   - __type__ - Type of border (`line` or `bg`). `bg` by default.
   - __ch__ - Character to use if `bg` type, default is space.
-  - __bg, fg__ - Border foreground and background, can be strings or numbers (-1 for default). See [Colors](https://github.com/chjj/nblessed#colors-1 "Colors").
+  - __bg, fg__ - Border foreground and background, can be strings or numbers (-1 for default). See [the Colors section](https://github.com/abritinthebay/nblessed/master/docs/styles.md "Colors")  of the style documentation.
   - __bold, underline__ - Border attributes.
 - __style__ - Contains attributes (e.g. `fg/bg/underline`). See above.
 - __position__ - Raw width, height, and offsets.
@@ -402,7 +402,7 @@ The base element.
 - __visible__ - Whether the element is visible or not.
 - __detached__ - Whether the element is attached to a screen in its ancestry
   somewhere.
-- __fg, bg__ - Foreground and background, can be strings or numbers (-1 for default). See [Colors](https://github.com/chjj/nblessed#colors-1 "Colors").
+- __fg, bg__ - Foreground and background, can be strings or numbers (-1 for default). See [the Colors section](https://github.com/abritinthebay/nblessed/master/docs/styles.md "Colors") of the style documentation.
 - __bold, underline__ - Attributes.
 - __width__ - Calculated width.
 - __height__ - Calculated height.
@@ -1658,4 +1658,3 @@ All helpers reside on `nblessed.helpers` or `nblessed`.
 - __cleanTags(text)__ - Strip text of tags, SGR escape code, and
   leading/trailing whitespace.
 - __dropUnicode(text)__ - Drop text of any >U+FFFF characters.
-

@@ -2,7 +2,7 @@
 
 A terminal app to view ANSI art from http://artscene.textfiles.com/ansi/.
 
-![ansi-viewer](https://raw.githubusercontent.com/chjj/blessed/master/img/ansi-viewer.png)
+![ansi-viewer](https://raw.githubusercontent.com/abritinthebay/nblessed/master/img/ansi-viewer.png)
 
 ## Contribution and License Agreement
 
