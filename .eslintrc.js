@@ -21,7 +21,7 @@ module.exports = {
             "no-cond-assign": 2,
             "no-console": 1,
             "no-constant-condition": 1,
-            "no-control-regex": 2,
+            "no-control-regex": 0,
             "no-debugger": 2,
             "no-dupe-args": 2,
             "no-dupe-keys": 2,
@@ -92,7 +92,7 @@ module.exports = {
             "no-labels": 0,
             "no-lone-blocks": 2,
             "no-loop-func": 2,
-            "no-magic-numbers": [1, {
+            "no-magic-numbers": [0, {
                 "ignore": [0, 1],
                 "ignoreArrayIndexes": true,
                 "enforceConst": true
@@ -227,7 +227,7 @@ module.exports = {
             "no-tabs": 0,
             "no-ternary": 0,
             "no-trailing-spaces": 2,
-            "no-underscore-dangle": [2, {
+            "no-underscore-dangle": [0, {
                 "allowAfterThis": true,
                 "allowAfterSuper": true
             }],
