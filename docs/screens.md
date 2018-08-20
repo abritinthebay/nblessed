@@ -1,39 +1,4 @@
 
-#### Artificial Cursors
-
-Terminal cursors can be tricky. They all have different custom escape codes to alter. As an _experimental_ alternative, nblessed can draw a cursor for you, allowing you to have a custom cursor that you control.
-
-``` js
-var screen = nblessed.screen({
-  cursor: {
-    artificial: true,
-    shape: 'line',
-    blink: true,
-    color: null // null for default
-  }
-});
-```
-
-That's it. It's controlled the same way as the regular cursor.
-
-To create a custom cursor:
-
-``` js
-var screen = nblessed.screen({
-  cursor: {
-    artificial: true,
-    shape: {
-      bg: 'red',
-      fg: 'white',
-      bold: true,
-      ch: '#'
-    },
-    blink: true
-  }
-});
-```
-
-
 #### Multiple Screens
 
 nblessed supports the ability to create multiple screens. This may not seem
@@ -137,5 +102,3 @@ above.
 
 For a working example of a nblessed telnet server, see
 `examples/nblessed-telnet.js`.
-
-

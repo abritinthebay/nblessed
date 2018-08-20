@@ -661,10 +661,8 @@ font.
 ##### Options:
 
 - Inherits all from Box.
-- __font__ - bdf->json font file to use (see [ttystudio][ttystudio] for
-  instructions on compiling BDFs to JSON).
-- __fontBold__ - bdf->json bold font file to use (see [ttystudio][ttystudio]
-  for instructions on compiling BDFs to JSON).
+- __font__ - bdf->json font file to use.
+- __fontBold__ - bdf->json bold font file to use.
 - __fch__ - foreground character. (default: `' '`)
 
 ##### Properties:
