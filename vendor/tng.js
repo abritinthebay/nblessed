@@ -801,14 +801,18 @@ PNG.prototype.pixelToTags = function(pixel, ch) {
 		bg,
 		fg;
 
-	bg = this.colors.RGBtoHex(pixel.r * a * bga | 0,
+	bg = this.colors.RGBtoHex([
+		pixel.r * a * bga | 0,
 		pixel.g * a * bga | 0,
-		pixel.b * a * bga | 0);
+		pixel.b * a * bga | 0
+	]);
 
 	if (ch && this.options.ascii) {
-		fg = this.colors.RGBtoHex(pixel.r * a * fga | 0,
+		fg = this.colors.RGBtoHex([
+			pixel.r * a * fga | 0,
 			pixel.g * a * fga | 0,
-			pixel.b * a * fga | 0);
+			pixel.b * a * fga | 0
+		]);
 		if (a === 0) {
 			return "{" + fg + "-fg}" + ch + "{/}";
 		}
