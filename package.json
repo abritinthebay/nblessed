@@ -2,7 +2,7 @@
   "name": "nblessed",
   "description": "A high-level terminal interface library for node.js.",
   "author": "Gregory Wild-Smith",
-  "version": "0.1.81",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "./lib/blessed.js",
   "bin": "./bin/tput.js",
@@ -46,7 +46,7 @@
     ]
   },
   "dependencies": {
-    "node-pty": "^0.7.6",
+    "node-pty": "^0.7.7",
     "term.js": "0.0.7"
   }
 }
